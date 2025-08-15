@@ -29,7 +29,7 @@ const HeroSection = () => {
                 Lo Staio
               </h1>
               <p className="text-xl lg:text-2xl text-warm-gold font-medium">
-                Pane e dolci artigianali a Cuneo dal 1985
+                Pane e dolci artigianali a Cuneo
               </p>
               <p className="text-lg text-white/90 max-w-lg">
                 Ogni giorno produciamo con passione pane fresco, focacce croccanti e dolci tradizionali seguendo ricette tramandate di generazione in generazione.
@@ -52,7 +52,7 @@ const HeroSection = () => {
                 asChild
                 className="border-white text-white hover:bg-white hover:text-rich-brown transition-colors"
               >
-                <a href="tel:+390171123456" className="flex items-center">
+                <a href="tel:+390171631832" className="flex items-center">
                   <Phone className="w-5 h-5 mr-2" />
                   Chiama Ora
                 </a>
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 className="border-white text-white hover:bg-white hover:text-rich-brown transition-colors"
               >
                 <a 
-                  href="https://maps.google.com/?q=Lo+Staio+Cuneo" 
+                  href="https://maps.google.com/?q=Corso+Antonio+Gramsci+1+Cuneo" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center"
@@ -87,7 +87,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-warm-gold rounded-full" />
-                <span>Tradizione dal 1985</span>
+                <span>Tradizione piemontese</span>
               </div>
             </div>
           </div>

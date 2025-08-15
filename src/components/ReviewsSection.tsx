@@ -5,23 +5,23 @@ const ReviewsSection = () => {
   const reviews = [
     {
       id: 1,
-      name: "Marco Bianchi",
+      name: "Marco T.",
       rating: 5,
-      text: "La migliore panetteria di Cuneo! Il pane è sempre fresco e croccante, le focacce sono divine. Il personale è cordiale e professionale. Ci vado tutte le mattine per la colazione.",
+      text: "Focaccia simile a quella genovese, davvero eccezionale. Personale gentile e locale accogliente.",
       date: "2 settimane fa"
     },
     {
       id: 2,
-      name: "Giulia Rossi",
+      name: "Lucia M.",
       rating: 5,
-      text: "Prodotti di qualità eccezionale! Ho ordinato una torta per il compleanno di mia figlia ed è stata perfetta. I grissini sono i migliori che abbia mai assaggiato. Consigliatissimo!",
+      text: "Prezzi nella media e ottima qualità. La ciabatta 'Italia' è la migliore di Cuneo!",
       date: "1 mese fa"
     },
     {
       id: 3,
-      name: "Pietro Alberti",
+      name: "Francesco R.",
       rating: 5,
-      text: "Tradizione e qualità in ogni prodotto. Si sente che è tutto fatto con passione e ingredienti genuini. Il pane integrale è fantastico e i croissant della domenica mattina sono un rituale imperdibile.",
+      text: "Pane di grano duro a lievitazione naturale straordinario. Sempre freschi i croissant.",
       date: "3 settimane fa"
     }
   ];
@@ -56,13 +56,13 @@ const ReviewsSection = () => {
           <Card className="inline-block bg-card/80 backdrop-blur border-border">
             <CardContent className="p-8">
               <div className="flex items-center justify-center space-x-2 mb-4">
-                <span className="text-4xl font-bold text-foreground">4.9</span>
+                <span className="text-4xl font-bold text-foreground">4.8</span>
                 <div className="flex space-x-1">
                   {renderStars(5)}
                 </div>
               </div>
               <p className="text-lg text-muted-foreground">
-                Media su <span className="font-semibold text-foreground">127 recensioni</span> Google
+                Media su <span className="font-semibold text-foreground">81 recensioni</span> Google
               </p>
             </CardContent>
           </Card>

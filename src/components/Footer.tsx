@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-bold text-warm-gold mb-4">Lo Staio</h3>
             <p className="text-white/80 mb-4 max-w-md">
-              Panetteria artigianale nel cuore di Cuneo dal 1985. 
+              Panetteria artigianale nel cuore di Cuneo. 
               Pane fresco, dolci tradizionali e specialità piemontesi 
               realizzate con passione e ingredienti di qualità.
             </p>
@@ -31,8 +31,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-warm-gold flex-shrink-0" />
-                <a href="tel:+390171123456" className="text-white/80 hover:text-white transition-colors">
-                  +39 0171 123 456
+                <a href="tel:+390171631832" className="text-white/80 hover:text-white transition-colors">
+                  +39 0171 631 832
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-warm-gold flex-shrink-0 mt-1" />
                 <div className="text-white/80">
-                  <p>Via Roma, 123</p>
+                  <p>Corso Antonio Gramsci, 1</p>
                   <p>12100 Cuneo (CN)</p>
                 </div>
               </div>
@@ -56,19 +56,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-warm-gold mb-4">Orari</h4>
             <div className="space-y-2 text-white/80 text-sm">
               <div className="flex justify-between">
-                <span>Mar-Ven:</span>
-                <span>6:30-19:30</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Sabato:</span>
-                <span>6:30-20:00</span>
+                <span>Lun-Sab:</span>
+                <span>7:30-13:00, 16:00-19:30</span>
               </div>
               <div className="flex justify-between">
                 <span>Domenica:</span>
-                <span>7:00-13:00</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Lunedì:</span>
                 <span className="text-red-300">Chiuso</span>
               </div>
             </div>

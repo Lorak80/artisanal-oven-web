@@ -4,10 +4,8 @@ import { Phone, MapPin, Clock, Mail } from "lucide-react";
 
 const ContactsSection = () => {
   const openingHours = [
-    { day: "Lunedì", hours: "Chiuso" },
-    { day: "Martedì - Venerdì", hours: "6:30 - 13:00 / 16:00 - 19:30" },
-    { day: "Sabato", hours: "6:30 - 13:00 / 16:00 - 20:00" },
-    { day: "Domenica", hours: "7:00 - 13:00" }
+    { day: "Lunedì - Sabato", hours: "7:30 - 13:00 / 16:00 - 19:30" },
+    { day: "Domenica", hours: "Chiuso" }
   ];
 
   return (
@@ -35,7 +33,7 @@ const ContactsSection = () => {
               <CardContent className="space-y-4">
                 <div>
                   <p className="text-lg font-medium text-foreground">Lo Staio - Panetteria Artigianale</p>
-                  <p className="text-muted-foreground">Via Roma, 123</p>
+                  <p className="text-muted-foreground">Corso Antonio Gramsci, 1</p>
                   <p className="text-muted-foreground">12100 Cuneo (CN)</p>
                 </div>
                 <Button 
@@ -44,7 +42,7 @@ const ContactsSection = () => {
                   asChild
                 >
                   <a 
-                    href="https://maps.google.com/?q=Via+Roma+123+Cuneo" 
+                    href="https://maps.google.com/?q=Corso+Antonio+Gramsci+1+Cuneo"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-2"
@@ -67,7 +65,7 @@ const ContactsSection = () => {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-muted-foreground" />
-                    <span className="text-foreground">+39 0171 123 456</span>
+                    <span className="text-foreground">+39 0171 631 832</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-muted-foreground" />
@@ -79,7 +77,7 @@ const ContactsSection = () => {
                     className="flex-1"
                     asChild
                   >
-                    <a href="tel:+390171123456" className="flex items-center justify-center space-x-2">
+                    <a href="tel:+390171631832" className="flex items-center justify-center space-x-2">
                       <Phone className="w-4 h-4" />
                       <span>Chiama</span>
                     </a>
@@ -149,7 +147,7 @@ const ContactsSection = () => {
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
                 <p className="text-muted-foreground">
-                  Mappa interattiva - Via Roma, 123, Cuneo
+                  Mappa interattiva - Corso Antonio Gramsci, 1, Cuneo
                 </p>
                 <Button 
                   variant="outline" 
@@ -157,7 +155,7 @@ const ContactsSection = () => {
                   asChild
                 >
                   <a 
-                    href="https://maps.google.com/?q=Via+Roma+123+Cuneo" 
+                    href="https://maps.google.com/?q=Corso+Antonio+Gramsci+1+Cuneo" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >

@@ -7,48 +7,48 @@ const ProductsSection = () => {
   const products = [
     {
       id: 1,
-      name: "Pane Tradizionale",
-      description: "Pane bianco e integrale sfornato quotidianamente con lievito madre",
+      name: "Ciabatta 'Italia'",
+      description: "Farina tipo 1, lunga lievitazione, senza grassi - la nostra specialità",
       image: breadImage,
-      specialty: "Ricetta storica",
-      price: "€ 2,50/kg"
+      specialty: "Specialità della casa",
+      price: "€ 3,00/kg"
     },
     {
       id: 2,
-      name: "Focaccia Ligure",
-      description: "Focaccia croccante all'olio extravergine, rosmarino e sale grosso",
+      name: "Pane di Grano Duro",
+      description: "A lievitazione naturale, dal sapore intenso e la crosta croccante",
       image: breadImage,
-      specialty: "Specialità della casa",
-      price: "€ 15,00/kg"
+      specialty: "Lievitazione naturale",
+      price: "€ 3,50/kg"
     },
     {
       id: 3,
-      name: "Grissini Piemontesi",
-      description: "Grissini stirati a mano secondo la tradizione torinese",
+      name: "Grissini Fatti a Mano",
+      description: "Stirati a mano secondo la tradizione piemontese",
       image: breadImage,
       specialty: "Tradizione piemontese",
       price: "€ 8,00/kg"
     },
     {
       id: 4,
-      name: "Croissant e Brioche",
-      description: "Paste sfogliate fresche con burro, marmellate e creme",
+      name: "Croissant",
+      description: "Cioccolato, albicocca, Nutella e crema - freschi ogni mattina",
       image: pastriesImage,
       specialty: "Lievitazione 12h",
       price: "€ 1,50 cad"
     },
     {
       id: 5,
-      name: "Torte Tradizionali",
-      description: "Torte della nonna, crostata di frutta e dolci piemontesi",
+      name: "Baci di Dama",
+      description: "Baci al cioccolato e pistacchio secondo la tradizione piemontese",
       image: pastriesImage,
-      specialty: "Su ordinazione",
-      price: "€ 25,00/kg"
+      specialty: "Ricetta tradizionale",
+      price: "€ 18,00/kg"
     },
     {
       id: 6,
       name: "Panettoni Artigianali",
-      description: "Panettoni e pandori per le festività natalizie",
+      description: "Panettoni artigianali per le festività natalizie",
       image: pastriesImage,
       specialty: "Solo a Natale",
       price: "€ 35,00/kg"
@@ -103,24 +103,24 @@ const ProductsSection = () => {
         <div className="mt-16 text-center">
           <div className="bg-gradient-warm rounded-2xl p-8 border border-border">
             <h4 className="text-2xl font-semibold text-foreground mb-4">
-              Prodotti su Ordinazione
+              Altri Prodotti Disponibili
             </h4>
             <p className="text-muted-foreground text-lg mb-6 max-w-3xl mx-auto">
-              Realizziamo torte personalizzate per ogni occasione: compleanni, matrimoni, battesimi e ricorrenze speciali. 
-              Contattaci per discutere le tue esigenze e creare insieme il dolce perfetto.
+              Pane integrale, misto segale, crackers, salatini, biscotti, melighe, anicini, savoiardi, 
+              torte alla crema, semifreddi, chantilly, crostate, salami dolci, muffins, colombe e molto altro.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Badge variant="outline" className="text-sm py-2 px-4">
-                Torte di compleanno
+                Biscotti artigianali
               </Badge>
               <Badge variant="outline" className="text-sm py-2 px-4">
-                Wedding cake
+                Torte su ordinazione
               </Badge>
               <Badge variant="outline" className="text-sm py-2 px-4">
-                Dolci per cerimonie
+                Pasticceria secca
               </Badge>
               <Badge variant="outline" className="text-sm py-2 px-4">
-                Buffet dolci
+                Prodotti stagionali
               </Badge>
             </div>
           </div>
