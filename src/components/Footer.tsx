@@ -56,8 +56,12 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-warm-gold mb-4">Orari</h4>
             <div className="space-y-2 text-white/80 text-sm">
               <div className="flex justify-between">
-                <span>Lun-Sab:</span>
+                <span>Lun-Ven:</span>
                 <span>7:30-13:00, 16:00-19:30</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Sabato:</span>
+                <span className="text-red-300">7:30-13:00</span>
               </div>
               <div className="flex justify-between">
                 <span>Domenica:</span>

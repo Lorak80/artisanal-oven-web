@@ -8,50 +8,50 @@ const ProductsSection = () => {
     {
       id: 1,
       name: "Ciabatta 'Italia'",
-      description: "Farina tipo 1, lunga lievitazione, senza grassi - la nostra specialità",
+      description: "Farina tipo 1, senza grassi - la nostra specialità",
       image: breadImage,
       specialty: "Specialità della casa",
-      price: "€ 3,00/kg"
+      price: "€ 5,20/kg"
     },
     {
       id: 2,
       name: "Pane di Grano Duro",
-      description: "A lievitazione naturale, dal sapore intenso e la crosta croccante",
+      description: "A lievitazione naturale",
       image: breadImage,
       specialty: "Lievitazione naturale",
-      price: "€ 3,50/kg"
+      price: "€ 5,20/kg"
     },
     {
       id: 3,
-      name: "Grissini Fatti a Mano",
-      description: "Stirati a mano secondo la tradizione piemontese",
+      name: "Grissini stirati a Mano",
+      description: "Secondo la tradizione piemontese, anche ai 5 cereali",
       image: breadImage,
       specialty: "Tradizione piemontese",
-      price: "€ 8,00/kg"
+      price: "€ 9,80/kg"
     },
     {
       id: 4,
       name: "Croissant",
-      description: "Cioccolato, albicocca, Nutella e crema - freschi ogni mattina",
+      description: "Cioccolato, albicocca, frutti di bosco, pistacchio, e crema pasticcera fresca artigianale,  - freschi ogni mattina",
       image: pastriesImage,
       specialty: "Lievitazione 12h",
-      price: "€ 1,50 cad"
+      price: "€ 1,20 cad"
     },
     {
       id: 5,
-      name: "Baci di Dama",
-      description: "Baci al cioccolato e pistacchio secondo la tradizione piemontese",
-      image: pastriesImage,
-      specialty: "Ricetta tradizionale",
-      price: "€ 18,00/kg"
-    },
-    {
-      id: 6,
-      name: "Panettoni Artigianali",
+      name: "Panettone Artigianale",
       description: "Panettoni artigianali per le festività natalizie",
       image: pastriesImage,
       specialty: "Solo a Natale",
-      price: "€ 35,00/kg"
+      price: "€ 23,00/kg"
+    },  
+    {
+      id: 6,
+      name: "Focaccia Artigianale",
+      description: "Focaccia normale, stracchino, gorgonzola e noci, cipolle, olive, farcita con prosciutto e formaggio",
+      image: pastriesImage,
+      specialty: "Ricetta originale",
+      price: "€ 13,50/kg"
     }
   ];
 
@@ -106,8 +106,8 @@ const ProductsSection = () => {
               Altri Prodotti Disponibili
             </h4>
             <p className="text-muted-foreground text-lg mb-6 max-w-3xl mx-auto">
-              Pane integrale, misto segale, crackers, salatini, biscotti, melighe, anicini, savoiardi, 
-              torte alla crema, semifreddi, chantilly, crostate, salami dolci, muffins, colombe e molto altro.
+              Pane normale e integrale, crackers, salatini, biscotti, melighe, savoiardi, 
+              torte, crostate, salami dolci, muffins, colombe e molto altro.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Badge variant="outline" className="text-sm py-2 px-4">

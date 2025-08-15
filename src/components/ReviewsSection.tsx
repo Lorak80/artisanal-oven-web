@@ -3,27 +3,7 @@ import { Star } from "lucide-react";
 
 const ReviewsSection = () => {
   const reviews = [
-    {
-      id: 1,
-      name: "Marco T.",
-      rating: 5,
-      text: "Focaccia simile a quella genovese, davvero eccezionale. Personale gentile e locale accogliente.",
-      date: "2 settimane fa"
-    },
-    {
-      id: 2,
-      name: "Lucia M.",
-      rating: 5,
-      text: "Prezzi nella media e ottima qualità. La ciabatta 'Italia' è la migliore di Cuneo!",
-      date: "1 mese fa"
-    },
-    {
-      id: 3,
-      name: "Francesco R.",
-      rating: 5,
-      text: "Pane di grano duro a lievitazione naturale straordinario. Sempre freschi i croissant.",
-      date: "3 settimane fa"
-    }
+    
   ];
 
   const renderStars = (rating: number) => {
@@ -44,11 +24,9 @@ const ReviewsSection = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Cosa Dicono di Noi
+            Recensioni
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Le recensioni dei nostri clienti sono la nostra migliore pubblicità
-          </p>
+          
         </div>
 
         {/* Overall Rating */}
@@ -62,7 +40,7 @@ const ReviewsSection = () => {
                 </div>
               </div>
               <p className="text-lg text-muted-foreground">
-                Media su <span className="font-semibold text-foreground">81 recensioni</span> Google
+                Media su <span className="font-semibold text-foreground">80+ recensioni</span> Google
               </p>
             </CardContent>
           </Card>

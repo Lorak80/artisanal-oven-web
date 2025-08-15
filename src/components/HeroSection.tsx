@@ -32,7 +32,7 @@ const HeroSection = () => {
                 Pane e dolci artigianali a Cuneo
               </p>
               <p className="text-lg text-white/90 max-w-lg">
-                Ogni giorno produciamo con passione pane fresco, focacce croccanti e dolci tradizionali seguendo ricette tramandate di generazione in generazione.
+                Ogni giorno produciamo con passione pane fresco, focacce croccanti e dolci tradizionali.
               </p>
             </div>
 
