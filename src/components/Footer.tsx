@@ -15,14 +15,6 @@ const Footer = () => {
               Pane fresco, dolci tradizionali e specialità piemontesi 
               realizzate con passione e ingredienti di qualità.
             </p>
-            <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-warm-gold/20 rounded-full flex items-center justify-center hover:bg-warm-gold/30 transition-colors cursor-pointer">
-                <span className="text-warm-gold font-bold">f</span>
-              </div>
-              <div className="w-10 h-10 bg-warm-gold/20 rounded-full flex items-center justify-center hover:bg-warm-gold/30 transition-colors cursor-pointer">
-                <span className="text-warm-gold font-bold text-sm">IG</span>
-              </div>
-            </div>
           </div>
 
           {/* Quick Contact */}
@@ -33,12 +25,6 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-warm-gold flex-shrink-0" />
                 <a href="tel:+390171631832" className="text-white/80 hover:text-white transition-colors">
                   +39 0171 631 832
-                </a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-warm-gold flex-shrink-0" />
-                <a href="mailto:info@lostaio.it" className="text-white/80 hover:text-white transition-colors">
-                  info@lostaio.it
                 </a>
               </div>
               <div className="flex items-start space-x-3">
