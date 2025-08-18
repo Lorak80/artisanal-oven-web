@@ -4,7 +4,8 @@ import { Phone, MapPin, Clock, Mail } from "lucide-react";
 
 const ContactsSection = () => {
   const openingHours = [
-    { day: "Lunedì - Sabato", hours: "7:30 - 13:00 / 16:00 - 19:30" },
+    { day: "Lunedì - Venerdì", hours: "7:30 - 13:00 / 16:00 - 19:30" },
+    { day: "Sabato", hours: "7:30 - 13:00" },
     { day: "Domenica", hours: "Chiuso" }
   ];
 
@@ -67,10 +68,6 @@ const ContactsSection = () => {
                     <Phone className="w-5 h-5 text-muted-foreground" />
                     <span className="text-foreground">+39 0171 631 832</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <Mail className="w-5 h-5 text-muted-foreground" />
-                    <span className="text-foreground">info@lostaio.it</span>
-                  </div>
                 </div>
                 <div className="flex space-x-3">
                   <Button 
@@ -80,16 +77,6 @@ const ContactsSection = () => {
                     <a href="tel:+390171631832" className="flex items-center justify-center space-x-2">
                       <Phone className="w-4 h-4" />
                       <span>Chiama</span>
-                    </a>
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    className="flex-1"
-                    asChild
-                  >
-                    <a href="mailto:info@lostaio.it" className="flex items-center justify-center space-x-2">
-                      <Mail className="w-4 h-4" />
-                      <span>Email</span>
                     </a>
                   </Button>
                 </div>
